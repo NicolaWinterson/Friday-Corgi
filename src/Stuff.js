@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
  
-class Stuff extends Component {
-  render() {
+export default function Stuff() {
     return (
       <div>
         <h2>STUFF</h2>
@@ -16,7 +15,4 @@ class Stuff extends Component {
         </ol>
       </div>
     );
-  }
 }
- 
-export default Stuff;

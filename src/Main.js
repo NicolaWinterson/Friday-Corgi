@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import {
     Route,
     NavLink,
@@ -9,8 +9,7 @@ import Stuff from "./Stuff";
 import Contact from "./Contact";
 import "./index.css"
 
-class Main extends Component {
-    render() {
+export default function Main() {
         return (
             <BrowserRouter>
                 <div>
@@ -29,7 +28,4 @@ class Main extends Component {
             </BrowserRouter>
 
         );
-    }
 }
-
-export default Main;
